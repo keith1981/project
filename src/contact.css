@@ -1,0 +1,15 @@
+.contact-input {
+    min-width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+}
+
+.form-container {
+    position: relative;
+    top: 300px;
+    width: 500px;
+    z-index: 2;
+    
+}

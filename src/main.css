@@ -1,0 +1,167 @@
+.link {
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+
+.nav-bar {
+    background: transparent;
+    padding: 15px;
+}
+
+.castle-icon {
+    color: lightblue;
+    cursor: pointer;
+}
+
+.footer-container {
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+    padding: 10px;
+    background: white;
+}
+
+.title {
+    position: absolute;
+    left: 30%;
+    top: 220px;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.castle-search {
+    position: relative;
+    top: 330px;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.background {
+    background: lightgray;
+    height: 100vh;
+}
+
+.search {
+    min-width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+}
+
+.header {
+    background-image: url(./pictures/castle.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.img {
+    width: 300px;
+    height: 400px;
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.img:hover {
+    box-shadow: 3px 3px 5px 3px lightgray;
+    transform: scale(1.1)
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.error-msg {
+    position: relative;
+    z-index: 3;
+    color: red;
+}
+
+.btn {
+    position: relative;
+    left: 25%;
+    top: 200px;
+    width: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    background: navy;
+    color: white;
+    font-weight: bold;
+}
+
+.castle-imgs {
+    min-width: 200px;
+    min-height: 200px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.img-show {
+    display: flex;
+    border: 2px solid lightgray;
+    height: 21vh;
+    padding: 5px;
+    margin-bottom: 150px;
+    overflow: scroll;
+}
+
+.single-img-castle {
+    display: block;
+    height: 50vh;
+    width: 45%;
+    margin: 0 auto;
+    background: black;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px 3px black;
+}
+
+.single-image {
+    height: 50vh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-container {
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+    font-weight: 700px;
+    font-family: monospace;
+    line-height: 35px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.location-btn {
+    position: relative;
+    top: 15px;
+    left: 45%;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+h1 {
+    margin-top: -50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
